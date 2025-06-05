@@ -56,20 +56,20 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Wasi_Tech.sendMessage(Pair_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 
                let WASI_MD_TEXT = `
-*_Pair Code Connected by WASI TECH_*
+*_Pair Code Connected by Son Altesse_*
 *_Made With 🤍_*
 ______________________________________
 ╔════◇
-║ *『𝗪𝗢𝗪 𝗔𝗠𝗔𝗭𝗜𝗡𝗚 𝗖𝗛𝗢SEN 𝗪𝗔𝗦𝗜 𝗠𝗗』*
+║ *『𝗪𝗢𝗪 𝗔𝗠𝗔𝗭𝗜𝗡𝗚 𝗖𝗛𝗢SEN Dark Goku』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@wasitech1
-║❒ *Owner:* _https://wa.me/message/THZ3I25BYZM2E1_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD_
-║❒ *WaGroup:* _https://chat.whatsapp.com/FF6YuOZTAVB6Lu65cnY5BN_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j_
+║❒ *Ytube:* _http://www.youtube.com/@AltesseMwamboko
+║❒ *Owner:* _wa.me/243905526836_
+║❒ *Repo:* _https://github.com/Chadro14/Dark_Goku-_
+║❒ *WaGroup:* _https://chat.whatsapp.com/EGSeev12now6YTZYlTAxkr_
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029Vb6TWEeLY6d7ckvW7X1y_
 ║❒ *Plugins:* _https://github.com/Itxxwasi 
 ╚════════════════════════╝
 _____________________________________
@@ -94,6 +94,6 @@ _Don't Forget To Give Star To My Repo_`
          }
         }
     }
-    return await WASI_MD_PAIR_CODE()
+    return await Dark_Goku_PAIR_CODE()
 });
 module.exports = router
